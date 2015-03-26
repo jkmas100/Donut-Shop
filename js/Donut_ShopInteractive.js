@@ -40,6 +40,7 @@ function addShop(shop) {
 
   $(row).data('shop',shop).click(function(){
     $(this).toggleClass('selected');
+    $("#detailTable tr:nth-of-type(2)").remove();
     showDetail($(this).data('shop'));
   });
 }
