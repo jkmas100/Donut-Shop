@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+table.shops {
+  font-family: verdana,arial,sans-serif;
+  font-size:.8em;
+  border-width: 1px;
+  border-collapse: collapse;
+}
+table.shops th {
+  background-color:#F4F6F9;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+}
+table.shops tr {
+  background-color:#F4F6F9;
+}
+table.shops td {
+  border-width: 1px;
+  padding: 8px;
+  text-align: center;
+  border-style: solid;
+  border-color: #626264;
+}
+table td:nth-child(2) {
+  text-align: left;
+}
+#footer {
+  margin-top: 40px;
+  color: #ffffff;
+  font-family: Arial, Verdana, Sans-serif;
+  font-size: .8em;
+  text-align: left;
+  border-width: 1px;
+  border-color: #626264;
+  border-style: solid;
+  padding: 12px;
+  background-color: #9191FF;
+}
