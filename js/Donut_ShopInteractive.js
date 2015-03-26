@@ -14,6 +14,7 @@ function printShopConsole(shop) {
   console.log("Donuts/Hour:     " + shop.donutsPerHour());
   console.log(" ");
 }
+/* test */
 
 /* getHours takes store open and close time and returns total number of hours open */
 function getHours(open,close) { /* "7:00 AM","6:00 PM" */
