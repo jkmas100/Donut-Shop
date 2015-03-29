@@ -1,10 +1,15 @@
 @charset "utf-8";
 
+
 table.shops {
   font-family: verdana,arial,sans-serif;
   font-size:.8em;
   border-width: 1px;
+  border-radius: 15px;
   border-collapse: collapse;
+}
+table.shops tr {
+  background-color:#F4F6F9;
 }
 table.shops th {
   background-color:#F4F6F9;
@@ -12,8 +17,10 @@ table.shops th {
   padding: 8px;
   border-style: solid;
 }
-table.shops tr {
-  background-color:#F4F6F9;
+table.shops tr:not(:nth-child(1)):hover {
+  background-color: #dbf1fc;
+  color: black;
+  cursor: pointer;
 }
 table.shops td {
   border-width: 1px;
@@ -22,6 +29,7 @@ table.shops td {
   border-style: solid;
   border-color: #626264;
 }
+
 table td:nth-child(2) {
   text-align: left;
 }
