@@ -1,5 +1,16 @@
 @charset "utf-8";
 
+/* All tables */
+
+table {
+  background: url("../images/code-fellows-logo.jpg") repeat;
+}
+
+table td:nth-child(2) {
+  text-align: left;
+}
+
+/* Shops Summary Table */
 
 table.shops {
   font-family: verdana,arial,sans-serif;
@@ -8,9 +19,7 @@ table.shops {
   border-radius: 15px;
   border-collapse: collapse;
 }
-table.shops tr {
-  background-color:#F4F6F9;
-}
+
 table.shops th {
   background-color:#F4F6F9;
   border-width: 1px;
@@ -18,7 +27,7 @@ table.shops th {
   border-style: solid;
 }
 table.shops tr:not(:nth-child(1)):hover {
-  background-color: #dbf1fc;
+  background-color: #eeeeee;
   color: black;
   cursor: pointer;
 }
@@ -30,9 +39,38 @@ table.shops td {
   border-color: #626264;
 }
 
-table td:nth-child(2) {
-  text-align: left;
+/* Shops Detail Table */
+table.shopsDetail {
+  font-family: verdana,arial,sans-serif;
+  font-size:.8em;
+  border-width: 1px;
+  border-radius: 15px;
+  border-collapse: collapse;
 }
+table.shopsDetail tr {
+  background-color:#F4F6F9;
+}
+table.shopsDetail th {
+  background-color:#F4F6F9;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+}
+table.shopsDetail tr:not(:nth-child(1)):hover {
+  background-color: #eeeeee;
+  color: black;
+  cursor: pointer;
+}
+table.shopsDetail td {
+  border-width: 1px;
+  padding: 8px;
+  text-align: center;
+  border-style: solid;
+  border-color: #626264;
+}
+
+
+
 #footer {
   margin-top: 40px;
   color: #ffffff;
